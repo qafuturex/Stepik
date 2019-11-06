@@ -12,13 +12,13 @@ try:
     browser = webdriver.Chrome()
     browser.implicitly_wait(10)
     browser.get(link)
-    button = WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, 'price'), '100$'))
+#ждём, пока появится заданный текст
+    price = WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, 'price'), '$100'))
+#кликаем кнопку
+    button = browser.find_element_by_css_selector('#book')
+    button.click()
     def calc(x):
         return str(math.log(abs(12*math.sin(int(x)))))
-
-
-    new_window = browser.window_handles[1]
-    browser.switch_to.window(new_window)
 
 # ищем значение переменной, считаем ответ
     x_element = browser.find_element_by_id('input_value')
@@ -28,9 +28,11 @@ try:
     insrt = browser.find_element_by_id('answer')
     insrt.click()
     insrt.send_keys(y)
-    time.sleep(1)
-    btn = browser.find_element_by_css_selector('.btn')
+    btn = browser.find_element_by_css_selector('#solve')
     btn.click()
 finally:
     time.sleep(5)
     browser.quit()
+
+#https://stepik.org/lesson/181384/step/8?unit=156009
+# задание 2.4, ожидание
