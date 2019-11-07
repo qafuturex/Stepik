@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce6223d6-434e-4f38-bab3-5096939a6ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/1_2_First_Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_1_get_attribute_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_1_get_attribute_my.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_2_Dropdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_2_get_attribute_add file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_2_get_attribute_scroll_into view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_3_in_new_tab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/2_4_explicit_wait2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/3_2_last.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/3_2_saved_scenario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/3_2_unittestInclude.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Stepik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Stepik.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/3_2_last_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/1.2_First_Start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.1_get_attribute_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.1_get_attribute_my.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.2_Dropdown.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.2_get_attribute_add file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.2_get_attribute_scroll_into view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.3_in_new_tab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2.4_explicit_wait2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3.2_saved_scenario.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3.2_unittestInclude.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,17 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons/3_2_last.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,9 +35,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="975" />
-    <option name="height" value="1047" />
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,6 +51,11 @@
             <path>
               <item name="Stepik" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stepik" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stepik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stepik" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,8 +199,23 @@
       <workItem from="1572887999352" duration="3122000" />
       <workItem from="1573065200655" duration="4252000" />
       <workItem from="1573069602472" duration="455000" />
-      <workItem from="1573142919002" duration="1029000" />
+      <workItem from="1573142919002" duration="2906000" />
     </task>
+    <task id="LOCAL-00001" summary="добавлен файл с настройками">
+      <created>1573144055545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144055545</updated>
+    </task>
+    <task id="LOCAL-00002" summary="файл 3_2_last переименован в 3_2_last_test для проверки работы pytest с запуском pytest и указанием папки lessons">
+      <created>1573146296143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573146296143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -264,7 +251,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9994000" />
+    <option name="totallyTimeSpent" value="11871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,7 +265,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11560226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11560226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +279,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32269505" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32269505" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
       <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="R Packages" />
@@ -305,6 +292,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлен файл с настройками" />
+    <MESSAGE value="файл 3_2_last переименован в 3_2_last_test для проверки работы pytest с запуском pytest и указанием папки lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="файл 3_2_last переименован в 3_2_last_test для проверки работы pytest с запуском pytest и указанием папки lessons" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Stepik$2_1_get_attribute_my.coverage" NAME="2.1_get_attribute_my Coverage Results" MODIFIED="1572889053936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
@@ -326,8 +318,15 @@
     <entry file="file://$PROJECT_DIR$/lessons/3.2_unittestInclude.py" />
     <entry file="file://$PROJECT_DIR$/lessons/3_2_last.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
