@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce6223d6-434e-4f38-bab3-5096939a6ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/3_2_last_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/3_3_abs_project_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/3_3_abs_project_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +41,7 @@
         <option value="$PROJECT_DIR$/lessons/3.2_saved_scenario.py" />
         <option value="$PROJECT_DIR$/../Desktop/send21.py" />
         <option value="$PROJECT_DIR$/lessons/3.2_unittestInclude.py" />
+        <option value="$PROJECT_DIR$/lessons/3_3_abs_project_test.py" />
       </list>
     </option>
   </component>
@@ -199,7 +210,7 @@
       <workItem from="1572887999352" duration="3122000" />
       <workItem from="1573065200655" duration="4252000" />
       <workItem from="1573069602472" duration="455000" />
-      <workItem from="1573142919002" duration="2906000" />
+      <workItem from="1573142919002" duration="3462000" />
     </task>
     <task id="LOCAL-00001" summary="добавлен файл с настройками">
       <created>1573144055545</created>
@@ -215,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573146296143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="файл 3_2_last переименован в 3_2_last_test для проверки работы pytest с запуском pytest и указанием папки lessons">
+      <created>1573146522763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573146522763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -251,7 +269,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11871000" />
+    <option name="totallyTimeSpent" value="12427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +283,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11560226" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11560226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,8 +297,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32269505" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.9468085" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280142" />
       <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -327,6 +345,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/3_3_abs_project_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
