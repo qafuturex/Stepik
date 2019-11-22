@@ -4,7 +4,7 @@ from selenium import webdriver
 link = "http://selenium1py.pythonanywhere.com/"
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="function")
 def browser():
     print("\nstart browser for test..")
     browser = webdriver.Chrome()
@@ -15,18 +15,15 @@ def browser():
 
 class TestMainPage1():
 
-    # вызываем фикстуру в тесте, передав ее как параметр
     def test_guest_should_see_login_link(self, browser):
-        print("start test1")
         browser.get(link)
         browser.find_element_by_css_selector("#login_link")
-        print("finish test1")
 
     def test_guest_should_see_basket_link_on_the_main_page(self, browser):
-        print("start test2")
         browser.get(link)
         browser.find_element_by_css_selector(".basket-mini .btn-group > a")
-        print("finish test2")
 
-#https://stepik.org/lesson/237257/step/5?unit=209645 3_4 scope
-# это для примера. Всё-таки лучше запускать отдельный браузер для каждого теста.
+    @pytest.mark.xfail(reason="fixing this bug right now")
+    def test_guest_should_see_search_button_on_the_main_page(self, browser):
+        browser.get(link)
+        browser.find_element_by_css_selector("input.btn.btn-default")
