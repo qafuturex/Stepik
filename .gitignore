@@ -1,3 +1,6 @@
-.pytest_cashe/*
-lessons/.pytest_cashe/*
+.pytest_cashe
 .idea/*
+geckodriver.log
+pytest.ini
+__pycache__
+
